@@ -77,7 +77,8 @@ public class Main {
                     cont_valido++;
                 }
             }
-            for (int i = 0; i < pilhAux.size(); i++){
+            int tmn = pilhAux.size();
+            for (int i = 0; i < tmn; i++){
                 servers.push(pilhAux.pop());
             }
             if (cont_valido == servers.size() - 1){
